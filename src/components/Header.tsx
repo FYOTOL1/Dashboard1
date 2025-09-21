@@ -13,7 +13,7 @@ const Header = () => {
 
                 <div className="flex items-center justify-between gap-2 md:gap-10 lg:gap-16 h-full">
 
-                    <ul className="flex items-center justify-between gap-2 sm:gap-4 h-full sm:w-2/5 md:w-2/4 text-nowrap text-[13px] text-gray-500 font-bold">
+                    <ul className="max-sm:hidden flex items-center justify-between gap-2 sm:gap-4 h-full sm:w-2/5 md:w-2/4 text-nowrap text-[13px] text-gray-500 font-bold">
                         <li className="block transition-all cursor-pointer hover:text-gray-700 hover:text-[13.5px] max-xl:hidden">Dashboard</li>
                         <li className="block transition-all cursor-pointer hover:text-gray-700 hover:text-[13.5px] max-xl:hidden">About Us</li>
                         <li className="block transition-all cursor-pointer hover:text-gray-700 hover:text-[13.5px] max-lg:hidden">News</li>
@@ -22,7 +22,7 @@ const Header = () => {
                         <li className="transition-all cursor-pointer"><img className="size-4" src="/icons/lineDotsIcon.svg" alt="Icon" /></li>
                     </ul>
 
-                    <div className="relative h-full w-2/4">
+                    <div className="relative h-full max-sm:w-full w-2/4">
                         <input className="bg-white h-full w-full rounded-full outline outline-gray-100 shadow-sm shadow-gray-200 px-4 sm:px-6 md:px-8 lg:px-10 text-[10px] md:text-xs" type="text" placeholder="Search Products, Orders and Clients" />
                         <img className="absolute top-1/2 left-1 sm:left-2 md:left-3 lg:left-4 -translate-y-1/2 size-3 md:size-4" src="/icons/lensIcon.svg" alt="icon" />
                         <img className="absolute top-1/2 right-1 sm:right-2 md:right-3 lg:right-4 -translate-y-1/2 size-3.5" src="/icons/rightArrowIcon.svg" alt="icon" />
