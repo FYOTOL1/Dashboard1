@@ -18,8 +18,13 @@ const Main = () => {
                 <AnalyticsCard />
                 <ChartsCard cardName="Orders Over Time" profit={333} rate={27.34} chartComponent={<LineGraph data1={[5, 3, 4, 4]} borderColor1="green" data2={[3, 4, 2, 3]} borderColor2="gray" />} />
                 <ChartsCard cardName="Orders Over Time" profit={720} rate={23.53} chartComponent={<LineGraph data1={[3, 6, 2, 5]} borderColor1="green" data2={[1, 4, 1, 1]} borderColor2="gray" />} />
+                <div className="md:hidden">
+                    <SideBar />
+                </div>
             </div>
-            <SideBar />
+            <div className="hidden md:block md:w-6/20 min-h-[calc(100vh-64px)]">
+                <SideBar />
+            </div>
         </div>
     )
 }
