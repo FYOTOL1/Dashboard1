@@ -10,7 +10,7 @@ const DataCard = ({ cardName, profit, rate, chartComponent }: TParams) => {
         <div className="bg-white outline outline-gray-200 rounded p-6">
 
             <div className="flex items-center justify-between text-gray-400 text-sm">
-                <div className="flex items-center gap-2 ">
+                <div className="flex items-center gap-2 text-xs">
                     <p>{cardName}</p>
                     <i className="fa-solid fa-circle-question"></i>
                 </div>

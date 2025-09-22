@@ -20,7 +20,7 @@ ChartJS.register(
     Legend
 )
 
-export const LineGraph = (
+export const CleanCharts = (
     { data1 = [1, 2, 3, 4],
         borderColor1 = "red",
         data2 = [2, 1, 4, 3],
@@ -47,12 +47,12 @@ export const LineGraph = (
                 display: false
             }
         },
-        
+
         radius: 0
     }
 
     const lineChartData = {
-        labels: ["12am", "8am", "4am", "11pm"],
+        labels: ["", "", "", ""],
 
         datasets: [
             {
